@@ -1,0 +1,296 @@
+header{
+		background-color: #fff;
+		width: 100%;
+		padding: 0px 0;
+		z-index: auto;
+		top: 0;
+}
+
+header a{
+	color: #212121;
+}
+
+header li{
+	font-family: "Futura Std Book", "Futura Std Medium", sans-serif;
+	font-weight: 400;
+	list-style: none;
+	float: left;
+	margin-left: 20px;
+	padding-top: 20px;
+}
+
+body{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif", "Futura Std Book", "Futura Std ExtraBold", "Futura Std Medium";
+	font-size: 16px;
+	color: #252424;	
+}
+
+.nav{
+	float: right;
+}
+
+.btn-green{
+	background-color: #fff;
+	color: #309B37;
+	border-radius: 5px;
+	border: 0;
+	text-transform: uppercase;
+	padding: 10px 30px;
+}
+
+.btn-light{
+	color: #fff;
+	background-color: #309B37;
+}
+	
+#secc-slider{
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		color:#FFFFFF;
+		text-align: center;
+		padding: 0px 0;
+		height: 500px;
+}
+
+.container-square{
+	height: 250px;
+	width: 500px;
+	color: #FFFFFF;
+	background-color: rgba(0,0,0,0.70);
+	padding: 20px 20px;
+	align-content: center;
+	align-items: center;
+	z-index: 1;
+}
+
+#green-mission{
+	margin: 40px;
+}
+
+.title-deco{
+	background-color: #01CF25;
+	width: 250px;
+	height: 3px;
+}
+
+.main-title{
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+}
+
+#green-mission p{
+	text-align: center;
+	font-size: 17px;
+	font-weight: 500;
+}
+
+.espacio{
+	padding: 50px 0px
+}
+
+#nuestro-trabajo{
+	background-color: #FFFFFF;
+	color: #2B2B2B;
+}
+
+#subscription{
+		background-image: url(../img/06.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		color:#FFFFFF;
+		text-align: center;
+		padding: 180px 235px;
+		height: 500px;
+	
+}
+
+.container-subscription{
+	height: 150px;
+	width: 500px;
+	color: #2B2B2B;
+	background-color: #FFFFFF;
+	padding: 20px 20px;
+	align-content: center;
+	align-items: center;
+	align-self: center;
+}
+
+.btn-black{
+	background-color: #0F0F0F;
+	color: #FFFFFF;
+	border-radius: 5px;
+	border: 0;
+	text-transform: uppercase;
+	padding: 10px 30px;
+}
+
+#learn-more{
+	text-align: center;
+	align-content: center;
+	align-items: center;
+}
+
+.imagespacing{
+	margin-bottom: 20px;
+}
+
+.main-footer{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	background: #212121;
+	padding: 20px 0px;
+}
+
+.footer-subscription{
+	color: #727272;
+}
+
+.footer-subscription li{
+	font-family: "Futura Std Book", "Futura Std Medium", sans-serif;
+	font-weight: 400;
+	list-style: none;
+	display: inline-block;
+	margin: 0px 20px;
+}
+
+.social-footer{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	background: #FFFFFF;
+	padding: 20px 0px;
+}
+
+.footer-socialmedia{
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+
+.footer-socialmedia ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.footer-socialmedia ul li{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 0px 10px;
+	border-radius: 100%;
+	background: #000000;
+}
+
+.footer-socialmedia ul li a{
+	color: aliceblue;
+	font-size: 30px;
+	display: block;
+}
+
+.footer-socialmedia ul li a i{
+	line-height: 50px;
+	color: aliceblue;
+	font-family: "Futura Std Book", "Futura Std Medium";
+}
+
+.footer-legalinfo{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.footer-legalinfo ul{
+	margin: 10px 0px;
+	padding: 0px;
+	text-align: center;
+	align-content: center;
+}
+
+.footer-legalinfo ul li{
+	display: table-row;
+	margin: 0px 20px;
+	font-family: "Futura Std Book", sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	color: darkslategray;
+}
+
+.footer-menuone{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.footer-menuone ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.footer-menuone ul li{
+	display: inline-block;
+	margin: 0px 20px;
+}
+
+.footer-menuone ul li a{
+	font-family: "Futura Std Book", sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	color: darkslategray;
+}
+
+.footer-menutwo{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.footer-menutwo ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.footer-menutwo ul li{
+	display: inline-block;
+	margin: 0px 20px;
+}
+
+.footer-menutwo ul li a{
+	font-family: "Futura Std Book", sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	color: darkslategray;
+}
+
+.footer-bottom{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	background: #FFFFFF;
+	padding: 20px;
+}
+
+.footer-bottom p{
+	font-family: "Futura Std Book", "Futura Std Light", sans-serif;
+	font-size: 14px;
+	text-align: center;
+	color: #585858;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+.footer-bottom p a{
+	color: #585858;
+}
