@@ -102,7 +102,7 @@ body{
 		background-size: cover;
 		color:#FFFFFF;
 		text-align: center;
-		padding: 180px 235px;
+		padding: 180px 100px;
 		height: 500px;
 	
 }
@@ -207,7 +207,7 @@ body{
 }
 
 .footer-legalinfo ul{
-	margin: 10px 0px;
+	margin: 10px 525px;
 	padding: 0px;
 	text-align: center;
 	align-content: center;
