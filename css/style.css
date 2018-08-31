@@ -96,13 +96,15 @@ body{
 }
 
 #subscription{
-		background-image: url(../img/06.jpg);
+		background-image: url(../img/Mountain.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
 		color:#FFFFFF;
 		text-align: center;
-		padding: 180px 100px;
+		position: inherit;
+		top:inherit;
+		padding-top: 180px;
 		height: 500px;
 	
 }
@@ -195,7 +197,6 @@ body{
 .footer-socialmedia ul li a i{
 	line-height: 50px;
 	color: aliceblue;
-	font-family: "Futura Std Book", "Futura Std Medium";
 }
 
 .footer-legalinfo{
@@ -294,3 +295,27 @@ body{
 .footer-bottom p a{
 	color: #585858;
 }
+
+
+.container-trabajo{
+	color: #FFFFFF;
+	background-color: rgba(0,0,0,0.60);
+	padding: 20px 20px;
+}
+
+
+#nuestro-trabajo{
+		background-image: url(../img/Plant-Growth.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		color:#FFFFFF;
+		height: 400px;
+		text-align: center;
+		padding: 80px 0;
+}
+
+#info{
+	background-color:#FFFFFF;
+	
+	}
