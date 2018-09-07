@@ -50,7 +50,7 @@ body{
 		color:#FFFFFF;
 		text-align: center;
 		padding: 0px 0;
-		height: 500px;
+		height: 570px;
 }
 
 .container-square{
@@ -317,5 +317,42 @@ body{
 
 #info{
 	background-color:#FFFFFF;
-	
 	}
+
+.container-trabajo{
+	height: 80px;
+	width: 500px;
+	color: #FFFFFF;
+	background-color: rgba(0,0,0,0.60);
+	padding: 20px 0px;
+}
+
+
+#nuestro-trabajo{
+		background-image: url(../img/../img/../img/formas-de-ayuda-solidaria-823x400.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		color:#FFFFFF;
+		text-align: center;
+		padding: 30px 950px;
+		height: 400px;
+		margin-top: 20px
+}
+
+.title-deco{
+	background-color: #01CF25;
+	width: 250px;
+	height: 3px;
+}
+
+.mapa{
+	height: 320px;
+	width: 500px;
+	padding: 10px;
+	margin-bottom: 40px;
+}
+
+#sec-form{
+	margin-top: 30px;
+}
