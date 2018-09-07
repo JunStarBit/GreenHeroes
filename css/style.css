@@ -374,3 +374,8 @@ body{
 	font-weight: 700;
 	text-align: center;
 }
+
+#map{
+	width: 100%;
+	min-height: 350px;
+}
