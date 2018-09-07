@@ -104,7 +104,7 @@ body{
 		text-align: center;
 		position: inherit;
 		top:inherit;
-		padding-top: 180px;
+		padding: 80px 0;
 		height: 500px;
 	
 }
@@ -317,7 +317,24 @@ body{
 
 #info{
 	background-color:#FFFFFF;
+}
+
+#info h1{
+	text-align: center;
+}
+
+#info p{
+	text-align: justify;
+}
+
+#info li{
+	background-color:#FFFFFF;
+	list-style: none
 	}
+
+#info i{
+	color: hsla(110,100%,39%,1.00);
+}
 
 .container-trabajo{
 	height: 80px;
@@ -328,23 +345,18 @@ body{
 }
 
 
-#nuestro-trabajo{
-		background-image: url(../img/../img/../img/formas-de-ayuda-solidaria-823x400.jpg);
+#esfuerzo{
+		background-image: url(../img/manos_postblogidoia.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
 		color:#FFFFFF;
 		text-align: center;
-		padding: 30px 950px;
+		padding: 80px 50px;
 		height: 400px;
-		margin-top: 20px
+		margin-top: 20px;
 }
 
-.title-deco{
-	background-color: #01CF25;
-	width: 250px;
-	height: 3px;
-}
 
 .mapa{
 	height: 320px;
@@ -355,4 +367,10 @@ body{
 
 #sec-form{
 	margin-top: 30px;
+}
+
+.head-title{
+	font-size: 100px;
+	font-weight: 700;
+	text-align: center;
 }
