@@ -50,7 +50,7 @@ body{
 		color:#FFFFFF;
 		text-align: center;
 		padding: 0px 0;
-		height: 570px;
+		height: 550px;
 }
 
 .container-square{
@@ -106,7 +106,6 @@ body{
 		top:inherit;
 		padding: 80px 0;
 		height: 500px;
-	
 }
 
 .container-subscription{
@@ -206,7 +205,6 @@ body{
 }
 
 .footer-legalinfo ul{
-	margin: 10px 525px;
 	padding: 0px;
 	text-align: center;
 	align-content: center;
@@ -214,7 +212,6 @@ body{
 
 .footer-legalinfo ul li{
 	display: table-row;
-	margin: 0px 20px;
 	font-family: "Futura Std Book", sans-serif;
 	font-size: 15px;
 	font-weight: 600;
@@ -279,7 +276,7 @@ body{
 	height: auto;
 	margin: auto;
 	background: #FFFFFF;
-	padding: 20px;
+	padding: 10px;
 }
 
 .footer-bottom p{
@@ -326,12 +323,12 @@ body{
 	text-align: justify;
 }
 
-#info li{
+#info li, #ultimasnoticias li{
 	background-color:#FFFFFF;
 	list-style: none
 	}
 
-#info i{
+#info i, #ultimasnoticias i{
 	color: hsla(110,100%,39%,1.00);
 }
 
@@ -421,12 +418,96 @@ body{
 	margin-bottom: 60px;
 }
 
+#login{
+		background-image: url(../img/night-forest.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		color:#FFFFFF;
+		height: 500px;
+		text-align: center;
+		padding: 40px 0;
+}
+
+.container-login{
+	height: 330px;
+	width: 50%;
+	color: #FFFFFF;
+	background-color: rgba(0,0,0,0.70);
+	padding: 20px 20px;
+	align-content: center;
+	align-items: center;
+	z-index: 1;
+}
+
+#noticias{
+		background-image: url(../img/Panoramic-Night-Sky-Stars-Forest.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		color:#FFFFFF;
+		height: 400px;
+		text-align: center;
+		padding: 80px 0;
+}
+
+#ultimasnoticias a{
+	font-size: 20px;
+	color: #000000;
+}
+
+#ultimasnoticias h1, #learnvids h1{
+	text-align: center;
+}
+
+#learnvids img{
+	height: 200px;
+	width: 100%;
+}
+
+#learnvids a, #learnvids i{
+	color: #FFFFFF;
+}
+
+.slave-overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(0,143,2,0.78);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: all ease-in-out 0.5s;
+}
+
+.overlay:hover .slave-overlay{
+	opacity: 1;
+	transition: all ease-in-out 0.5s;
+}
+
+.overlay{
+	position: relative;
+}
+
 /* Diseño Tableta y Móvil (xs y sm)*/
 @media (max-width:768px){
 	.head-title{
 		font-size: 50px;
-		font-weight: 600;
+		font-weight: 700;
 		text-align: center;
 	}
+	
+#secc-slider{
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		color:#FFFFFF;
+		text-align: center;
+		padding: 0px 0;
+		height: 300px;
+}
 }
 
