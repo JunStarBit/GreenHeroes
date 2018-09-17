@@ -10,6 +10,7 @@
 	<link href="css/bootstrap-custom.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.css">
 	
 <meta name="Description" content="pagina sobre nuestro trabajo de Green Heroes para obtener información de direcciones o ponerse en contacto con nuestro sitio">
 <meta name="Keywords" content="nature, animals, animal, flora, fauna, conservacion, progreso, biodegradable, verde ,heroes,">
@@ -40,9 +41,7 @@
 				  <li class="nav-item">
 					<a class="nav-link active" href="ourjob.html">Nuestro Trabajo</a>
 				  </li>
-				  <li class="nav-item">
-					<a class="nav-link active" href="#">Sobre Nosotros</a>
-				  </li>
+					
 				  <li class="nav-item">
 					<a class="nav-link active" href="noticias.html">Noticias</a>
 				  </li>
@@ -71,12 +70,20 @@
 		</div>
 	</header>
 	
+	<section id="sec-breadcrumb">
+	<div class="container">
+		<ul class="breadcrumb">
+			<li><a href="index.html">Home</a></li>
+			<li class="breadcrumb-item active">Our Job</li>
+		</ul>
+	</div>
+</section>
 	
 	<section id="nuestro-trabajo">
 		<div class="container">
 			<div class="row">
 				<article class="col-md-6 offset-md-3">
-				<h1 class="head-title">Nuestro Trabajo</h1>
+				<h1 class="head-title wow fadeIn">Nuestro Trabajo</h1>
 				</article>
 		</div>
 		</div>
@@ -86,7 +93,7 @@
     <section id="info">
 		<div class="container espacio">
 		<hr class="title-deco">
-		<h1><span class="main-title text-center">La Importancia del <br>Medio Ambiente</span></h1>
+		<h1><span class="main-title text-center wow fadeIn">La Importancia del <br>Medio Ambiente</span></h1>
 		<hr class="title-deco">
 		<p> 
           <br>
@@ -99,7 +106,7 @@
   <br>
   <p class="text-center">
 	  <hr class="title-deco">
-  <h1><span class="main-title text-center">¿Qué promovemos?</span></h1>
+  <h1><span class="main-title text-center wow fadeIn">¿Qué promovemos?</span></h1>
 	  <hr class="title-deco">
 		<br>
 		<ul>
@@ -181,7 +188,9 @@
 		</div>
 	</section>
 	</section>
-	
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <div class="addthis_inline_share_toolbox"></div>
+            
 <footer>
 		
 	<div class="main-footer">
@@ -253,6 +262,11 @@
 	
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+  <script>
+  new WOW().init();
+  </script>	
+	
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125146782-2"></script>
 <script>
@@ -262,7 +276,8 @@
 
   gtag('config', 'UA-125146782-2');
 </script>
-		
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b9f49a6603737ee"></script>
 </body>
 
 </html>

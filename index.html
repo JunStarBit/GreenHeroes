@@ -10,6 +10,7 @@
 	<link href="css/bootstrap-custom.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.css">
 	
 <meta name="Description" content="pagina de inicio de Green Heroes para obtener información de direcciones o ponerse en contacto con nuestro sitio">
 <meta name="Keywords" content="nature, animals, animal, flora, fauna, conservacion, progreso, biodegradable, verde ,heroes,">
@@ -40,9 +41,7 @@
 				  <li class="nav-item">
 					<a class="nav-link active" href="ourjob.html">Nuestro Trabajo</a>
 				  </li>
-				  <li class="nav-item">
-					<a class="nav-link active" href="#">Sobre Nosotros</a>
-				  </li>
+	
 				  <li class="nav-item">
 					<a class="nav-link active" href="noticias.html">Noticias</a>
 				  </li>
@@ -86,10 +85,10 @@
 				  <img class="d-block w-100" src="img/Slide-One.jpg" alt="First slide">
 					  <article class="carousel-caption d-none d-md-block">
 							<div class="container espacio">
-							<div class="container-square">
+							<div class="container-square wow fadeIn">
 								<h1>También es tu mundo</h1>
 								<p>Uno de los problemas más críticos que esta afectando a nuestro planeta. La contaminación ambiental, especialmente nuestro aire. <br> El aire que todos respiramos a diario, y es por eso que es un tema que a todos nos debe de interesar.</p>
-								<p><a href="#" class="btn btn-light btn-green">Leer más</a></p>
+								<p><a href="noticias.html" class="btn btn-light btn-green">Leer más</a></p>
 							</div>
 							</div>
 						</article>
@@ -99,10 +98,10 @@
 				  <img class="d-block w-100" src="img/Slide-Second.jpg" alt="Second slide">
 					<article class="carousel-caption d-none d-md-block">
 							<div class="container espacio">
-							<div class="container-square">
+							<div class="container-square wow fadeIn">
 								<h1>La Belleza es Verde</h1>
 								<p>Los bosques son nuestros mejores aliados para asegurar los recursos de agua dulce de los que depende la vida en el planeta. <br> Es sabido que las raíces de los árboles absorben agua del suelo para sobrevivir. Pero lo que se conoce menos es la capacidad de los árboles para hacer llover.</p>
-								<p><a href="#" class="btn btn-light btn-green">Leer más</a></p>
+								<p><a href="noticias.html" class="btn btn-light btn-green">Leer más</a></p>
 							</div>
 							</div>
 						</article>
@@ -112,10 +111,10 @@
 				  <img class="d-block w-100" src="img/Slide-Third.jpg" alt="Third slide">
 					<article class="carousel-caption d-none d-md-block">
 							<div class="container espacio">
-							<div class="container-square">
+							<div class="container-square wow fadeIn">
 								<h1>La Naturaleza al Alcance</h1>
 								<p>conoce al biodiversidad que nos rodea, los oceanos, nuestra fauna y flora, como nos afectan los incendios y la destruccion del ecosistema, ten en cuenta la constante evolución para solucionar los daños.</p>
-								<p><a href="#" class="btn btn-light btn-green">Leer más</a></p>
+								<p><a href="noticias.html" class="btn btn-light btn-green">Leer más</a></p>
 							</div>
 							</div>
 						</article>
@@ -136,7 +135,7 @@
 	<section id="green-mission">
 		<div class="container">
 				<hr class="title-deco">
-				<h2 class="main-title">Nuestra Misión</h2>
+				<h2 class="main-title wow fadeIn">Nuestra Misión</h2>
 				<hr class="title-deco">
 				<br><br>
 				<p>Somos una organización ecologista y pacifista internacional,
@@ -155,7 +154,7 @@
 	<section id="nuestro-trabajo espacio">
 		<div class="container ">
 			<hr class="title-deco">
-			<h1 class="main-title">Nuestro Trabajo</h1>
+			<h1 class="main-title wow fadeIn">Nuestro Trabajo</h1>
 			<hr class="title-deco">
 			<br>
 				<div class="row">
@@ -190,7 +189,7 @@
 		<div class="container">
 			<div class="row">
 				<article class="col-md-6 offset-md-3">
-					<div class="container-subscription">
+					<div class="container-subscription wow fadeIn">
 						<h3>Obtén las últimas noticias</h3>
 						<br>
 						<p class="btn btn-light btn-black">Registra tu correo</p>	
@@ -244,6 +243,10 @@
 			</div>
 		</div>
 	</section>
+	<br>
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <div class="addthis_inline_share_toolbox"></div>
+            
 	
 <footer>
 		
@@ -316,6 +319,11 @@
 	
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+  <script>
+  new WOW().init();
+  </script>	
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125146782-2"></script>
 <script>
@@ -325,7 +333,8 @@
 
   gtag('config', 'UA-125146782-2');
 </script>
-	
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b9f49a6603737ee"></script>
 </body>
 	
 </html>

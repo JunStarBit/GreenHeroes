@@ -10,6 +10,7 @@
 	<link href="css/bootstrap-custom.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.css">
 	
 <meta name="Description" content="pagina de donaciones de Green Heroes para obtener información de direcciones o ponerse en contacto con nuestro sitio">
 <meta name="Keywords" content="nature, animals, animal, flora, fauna, conservacion, progreso, biodegradable, verde ,heroes,">
@@ -41,9 +42,6 @@
 					<a class="nav-link active" href="ourjob.html">Nuestro Trabajo</a>
 				  </li>
 				  <li class="nav-item">
-					<a class="nav-link active" href="#">Sobre Nosotros</a>
-				  </li>
-				  <li class="nav-item">
 					<a class="nav-link active" href="noticias.html">Noticias</a>
 				  </li>
 				<li class="nav-item">
@@ -71,18 +69,27 @@
 		</div>
 	</header>
 	
+	<section id="sec-breadcrumb">
+	<div class="container">
+		<ul class="breadcrumb">
+			<li><a href="index.html">Home</a></li>
+			<li class="breadcrumb-item active">Donacion</li>
+		</ul>
+	</div>
+</section>
+	
 	<section id="gracias">
 		<div class="container">
-				<h1 class="head-title">Te Necesitamos</h1>
+				<h1 class="head-title wow fadeIn">Te Necesitamos</h1>
 		</div>		
 	</section>
 	
     <section id="info">
 		<div class="container espacio" >
-		<h1 class="text-center main-title">Ayudanos a Proteger al Medio Ambiente</h1>
+		<h1 class="text-center main-title wow bounceInUp">Ayudanos a Proteger al Medio Ambiente</h1>
 			<br>
 			<br>
-			<h4 class="text-center">Somos una organización ecologista y pacifista internacional, económica y políticamente independiente que utiliza la acción directa no violenta para atraer la atención pública hacia los problemas globales del medio ambiente e impulsar las soluciones necesarias para tener un futuro verde y en paz.</h4>
+			<h4 class="text-center wow bounceInUp">Somos una organización ecologista y pacifista internacional, económica y políticamente independiente que utiliza la acción directa no violenta para atraer la atención pública hacia los problemas globales del medio ambiente e impulsar las soluciones necesarias para tener un futuro verde y en paz.</h4>
 		</div>
 	</section>
 	
@@ -90,7 +97,7 @@
 	<section id="sec-count">
 		<div class="container espacio" >
 				<hr class="longtitle-deco">
-				<h2 class="text-center main-title">Selecciona la cantidad</h2>
+				<h2 class="text-center main-title wow bounceInUp">Selecciona la cantidad</h2>
 				<hr class="longtitle-deco">
 				<br>
 			<div>
@@ -126,7 +133,7 @@
 			
 			<div class="container espacio" >
 			<hr class="longtitle-deco">
-			<h2 class="text-center main-title">Tu Información</h2>
+			<h2 class="text-center main-title wow bounceInUp">Tu Información</h2>
 			<hr class="longtitle-deco">
 			<div class="row">
 			
@@ -191,7 +198,7 @@
 		<section id="tarjeta">	
 		<div class="container espacio">
 			<hr class="longtitle-deco">
-		<h2 class="text-center main-title">Información de pago</h2>
+		<h2 class="text-center main-title wow bounceInUp">Información de pago</h2>
 			<hr class="longtitle-deco">
 		<br>
 		<br>
@@ -231,7 +238,9 @@
 		<section id="donaunadona">
 			<a href="#" class="btn btn-light btn-green"><h1><b>Donar</b></h1></a>
 		</section>
-			
+		<!-- Go to www.addthis.com/dashboard to customize your tools --> 
+		<div class="addthis_inline_share_toolbox"></div>
+	
 <footer>
 		
 	<div class="main-footer">
@@ -303,6 +312,11 @@
 	
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+  <script>
+  new WOW().init();
+  </script>	
+	
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125146782-2"></script>
 <script>
@@ -313,5 +327,6 @@
   gtag('config', 'UA-125146782-2');
 </script>
 	
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b9f49a6603737ee"></script>
 </body>
 </html>

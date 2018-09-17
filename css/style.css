@@ -50,7 +50,7 @@ body{
 		color:#FFFFFF;
 		text-align: center;
 		padding: 0px 0;
-		height: 550px;
+		height: 570px;
 }
 
 .container-square{
@@ -490,6 +490,17 @@ body{
 
 .overlay{
 	position: relative;
+}
+
+#sec-breadcrumb{
+	background-color: #F3F3F3;
+	display: none;
+}
+
+#sec-breadcrumb .breadcrumb{
+	background-color: transparent;
+	border-radius: 0;
+	display: none;
 }
 
 /* Diseño Tableta y Móvil (xs y sm)*/
